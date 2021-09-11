@@ -1,0 +1,16 @@
+br/com/pizmo/repository/AccountRepositoryTest.java
+ br.com.pizmo.repository.AccountRepositoryTest
+br/com/pizmo/repository/TransactionRepositoryTest.java
+ br.com.pizmo.repository.TransactionRepositoryTest
+br/com/pizmo/service/TransactionServiceTest.java
+ br.com.pizmo.service.TransactionServiceTest
+br/com/pizmo/service/AccountServiceTest.java
+ br.com.pizmo.service.AccountServiceTest
+br/com/pizmo/resource/TransactionResourceTest.java
+ br.com.pizmo.resource.TransactionResourceTest
+br/com/pizmo/domain/OperationTypeTest.java
+ br.com.pizmo.domain.OperationTypeTest
+br/com/pizmo/resource/AccountResourceTest.java
+ br.com.pizmo.resource.AccountResourceTest
+br/com/pizmo/config/CustomExceptionHandlerTest.java
+ br.com.pizmo.config.CustomExceptionHandlerTest
