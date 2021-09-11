@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.044s</div>
+<div class="counter">0.030s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,12 +79,12 @@
 </thead>
 <tr>
 <td class="success">addNewAccount</td>
-<td class="success">0.026s</td>
+<td class="success">0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">findAccount</td>
-<td class="success">0.018s</td>
+<td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -92,12 +92,12 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2021-09-11 14:12:54.999  INFO 8779 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.pizmo.resource.AccountResourceTest], using SpringBootContextLoader
-2021-09-11 14:12:55.001  INFO 8779 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.pizmo.resource.AccountResourceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2021-09-11 14:12:55.002  INFO 8779 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.pizmo.resource.AccountResourceTest]: AccountResourceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2021-09-11 14:12:55.009  INFO 8779 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.pizmo.PyzmoTestApplication for test class br.com.pizmo.resource.AccountResourceTest
-2021-09-11 14:12:55.011  INFO 8779 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2021-09-11 14:12:55.013  INFO 8779 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@65bc5d7d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a3218c6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@327092fb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2694d3fb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21c425e1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6bfaed37, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5dab4df9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5da056bc, org.springframework.test.context.event.EventPublishingTestExecutionListener@5dcb8bc4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@61e4461f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66a71b5f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@396db481, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38f99dc3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7beee07d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@25cd71bc]
+<pre>2021-09-11 14:37:39.125  INFO 12619 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.pizmo.resource.AccountResourceTest], using SpringBootContextLoader
+2021-09-11 14:37:39.126  INFO 12619 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.pizmo.resource.AccountResourceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-09-11 14:37:39.126  INFO 12619 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.pizmo.resource.AccountResourceTest]: AccountResourceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-09-11 14:37:39.132  INFO 12619 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.pizmo.PyzmoTestApplication for test class br.com.pizmo.resource.AccountResourceTest
+2021-09-11 14:37:39.134  INFO 12619 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-09-11 14:37:39.135  INFO 12619 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@313c4bc9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@e265a98, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6b5bf4c9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3b7a633d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@684b1598, org.springframework.test.context.support.DirtiesContextTestExecutionListener@54056093, org.springframework.test.context.transaction.TransactionalTestExecutionListener@60cc2b66, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8c7cfc9, org.springframework.test.context.event.EventPublishingTestExecutionListener@3890fc9c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@47ee12e5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@46788665, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70f7a0e4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4fbcd67a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@78728c52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7a3b6697]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -107,12 +107,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.0)
 
-2021-09-11 14:12:55.093  INFO 8779 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : Starting AccountResourceTest using Java 11.0.8 on matheus-VJF155F11X-B2511B with PID 8779 (started by matheus in /home/matheus/dev/teste)
-2021-09-11 14:12:55.097  INFO 8779 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : No active profile set, falling back to default profiles: default
-2021-09-11 14:12:55.959  INFO 8779 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2021-09-11 14:12:55.959  INFO 8779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2021-09-11 14:12:55.961  INFO 8779 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2021-09-11 14:12:55.982  INFO 8779 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : Started AccountResourceTest in 0.962 seconds (JVM running for 23.803)
+2021-09-11 14:37:39.179  INFO 12619 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : Starting AccountResourceTest using Java 11.0.8 on matheus-VJF155F11X-B2511B with PID 12619 (started by matheus in /home/matheus/dev/pizmo)
+2021-09-11 14:37:39.181  INFO 12619 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : No active profile set, falling back to default profiles: default
+2021-09-11 14:37:39.811  INFO 12619 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-09-11 14:37:39.811  INFO 12619 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-09-11 14:37:39.812  INFO 12619 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-09-11 14:37:39.825  INFO 12619 --- [    Test worker] b.c.pizmo.resource.AccountResourceTest   : Started AccountResourceTest in 0.686 seconds (JVM running for 15.536)
 </pre>
 </span>
 </div>
@@ -124,7 +124,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.0</a> at Sep. 11, 2021, 2:12:57 p.m.</p>
+<a href="http://www.gradle.org">Gradle 7.0</a> at Sep. 11, 2021, 2:37:39 p.m.</p>
 </div>
 </div>
 </body>

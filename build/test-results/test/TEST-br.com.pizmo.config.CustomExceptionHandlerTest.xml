@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.com.pizmo.config.CustomExceptionHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-11T17:12:33" hostname="matheus-VJF155F11X-B2511B" time="2.143">
+<testsuite name="br.com.pizmo.config.CustomExceptionHandlerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-11T17:37:25" hostname="matheus-VJF155F11X-B2511B" time="1.157">
   <properties/>
-  <testcase name="handleMethodArgumentNotValid" classname="br.com.pizmo.config.CustomExceptionHandlerTest" time="2.142"/>
+  <testcase name="handleMethodArgumentNotValid" classname="br.com.pizmo.config.CustomExceptionHandlerTest" time="1.155"/>
   <testcase name="handleDocumentAccountException" classname="br.com.pizmo.config.CustomExceptionHandlerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

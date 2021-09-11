@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="br.com.pizmo.domain.OperationTypeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-09-11T17:12:56" hostname="matheus-VJF155F11X-B2511B" time="0.002">
+<testsuite name="br.com.pizmo.domain.OperationTypeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-09-11T17:37:39" hostname="matheus-VJF155F11X-B2511B" time="0.001">
   <properties/>
-  <testcase name="isCompraParcelada" classname="br.com.pizmo.domain.OperationTypeTest" time="0.001"/>
+  <testcase name="isCompraParcelada" classname="br.com.pizmo.domain.OperationTypeTest" time="0.0"/>
   <testcase name="isCompraAVista" classname="br.com.pizmo.domain.OperationTypeTest" time="0.0"/>
   <testcase name="isDebitoSaque" classname="br.com.pizmo.domain.OperationTypeTest" time="0.0"/>
   <testcase name="isDebitoAPrazo" classname="br.com.pizmo.domain.OperationTypeTest" time="0.001"/>
