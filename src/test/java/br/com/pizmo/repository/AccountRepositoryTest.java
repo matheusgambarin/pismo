@@ -31,7 +31,8 @@ public class AccountRepositoryTest {
         Account account = new Account();
         account.setDocumentNumber(12345678900L);
 
-        repository.saveAndFlush(account);
+        Account savedAccount = repository.saveAndFlush(account);
+        assertThat(savedAccount.getId()).isNotNull();
     }
 
     @Test

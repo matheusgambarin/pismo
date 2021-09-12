@@ -14,6 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
+
 @DataJpaTest
 @RunWith(SpringRunner.class)
 @Import(BaseConfiguration.class)
@@ -36,6 +38,7 @@ public class TransactionRepositoryTest {
         Account account = new Account();
         account.setId(1L);
         transaction.setAccount(account);
-        repository.saveAndFlush(transaction);
+        Transaction savedTransaction = repository.saveAndFlush(transaction);
+        assertThat(savedTransaction.getId()).isNotNull();
     }
 }
