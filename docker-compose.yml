@@ -3,6 +3,6 @@ services:
   pizmo-api:
     build:
       context: .
-    image: pizmo-api
+    image: matheusgambarin/api:1
     ports:
       - 8090:8090
